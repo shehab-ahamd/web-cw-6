@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super-Bonus</title>
+</head>
+<body>
+ 
+
+
+
+    <script>
+        //-------------السؤال الاول-----------------
+        //    المطلوب الاول
+        const myName =`شهاب الشمري`;
+        console.log(myName)
+
+        //    المطلوب الثاني
+        const myAge = `17`;
+        console.log(myAge)
+
+        //    المطلوب الثالث /المطلوب الرابع
+        console.log(`انا ${myName} وعمري ${myAge} `)
+
+        // console.log(myName+myAge)
+
+        //    المطلوب الخامس /المطلوب السادس
+        console.log(myAge*5)
+
+        //------------------------------------------
+
+        //-------------السؤال الثاني-----------------
+        //     المطلوب الاول
+        let myHobbies =["الفروسية" , "السباحة " , "كرة السله" ,"رمي رمح" ,"الرماية"]
+        console.log(myHobbies)
+        
+        //     المطلوب الثاني
+        
+        // الطريقة الاولى
+        myHobbies.unshift(17) ;
+        console.log(myHobbies)
+        // الطريقة الثانيه
+        myHobbies.push(myAge) ;
+        console.log(myHobbies)
+
+        // المطلوب الثالث
+        myHobbies.pop() ;
+        console.log(myHobbies)
+
+        // المطلوب الرابع
+        let alshammari ={
+            shehab : {
+                massari :`برمجة وتطوير مواقع الويب`,
+                programming_language : `javascript <3 `,
+            },
+        //  المطلوب الخامس    
+         ta : [ `م.رهف العنزي  ` , `عزيز القطان` , `حمد المسري` ],
+        
+        //    Bonus
+        code : function(){
+            `مبادرة الكويت تبرمج ,اقوى مبادرة برمجة في الكون  `
+        }
+        
+        }
+       
+        //   المطلوب السادس
+        console.log(alshammari.shehab.massari),
+
+        //   المطلوب السابع
+        console.log(alshammari.ta[2]) ,
+
+        console.log(alshammari.code)
+
+
+    </script>
+</body>
+</html>
